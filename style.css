@@ -20,6 +20,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 15px;
+  font-style: italic;
 }
 
 ul {
@@ -45,4 +46,8 @@ form {
 
 table {
   font-weight: bold;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
 }
