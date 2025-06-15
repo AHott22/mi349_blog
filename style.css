@@ -42,3 +42,9 @@ li {
 form {
     margin: 20px
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
