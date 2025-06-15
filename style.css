@@ -59,3 +59,57 @@ td {
     text-align: left;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="comment"],
+select {
+    display: block;
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1d1c1c;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #006699;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
