@@ -38,3 +38,7 @@ li {
 .blog-post {
     border-bottom: 5px dotted #ccc
 }
+
+form {
+    margin: 20px
+}
